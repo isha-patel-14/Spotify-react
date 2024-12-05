@@ -9,6 +9,11 @@ import episode from './assets/your episodes.png'
 import icon from './assets/grommet-icons_install-option.png'
 import topArrow from './assets/top arrow navigation.png'
 import user from './assets/User.png'
+import image4 from './assets/image4.png'
+import image3 from './assets/image3.png'
+import image1 from './assets/image1.png'
+import image2 from './assets/image2.png'
+
 
 function App() {
 
@@ -47,9 +52,34 @@ function App() {
         </div>
     </div>
 
-    <div class="nav">
+    <div className="nav">
         <div><img src={topArrow} class="nav-i1"/></div>
         <div><img src={user} class="nav-i2"/></div>
+    </div>
+
+    <h2 className="mrng_text">Good morning</h2>
+
+    <div className="morning">
+        <div className="mrng">
+            <img src={like} className="m_img"/>
+            <div className="text">Liked Songs</div>
+        </div>
+        <div className="mrng">
+            <img src={image4} className="m_img"/>
+            <div className="text1">Neffex Playlist</div>
+        </div>
+        <div className="mrng">
+            <img src={image3} className="m_img"/>
+            <div className="text3">K/DA</div>
+        </div>
+        <div className="mrng">
+            <img src={image1} className="m_img"/>
+            <div className="text">Liked Songs</div>
+        </div>
+        <div className="mrng">
+            <img src={image2} className="m_img"/>
+            <div className="text2">Dance/Electronic Mix</div>
+        </div>
     </div>
 
     </>
