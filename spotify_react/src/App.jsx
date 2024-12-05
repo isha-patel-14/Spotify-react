@@ -19,8 +19,10 @@ import image7 from './assets/image7.png'
 import image5 from './assets/image5.png'
 import image6 from './assets/image6.png'
 import image10 from './assets/image10.png'
-
-
+import image11 from './assets/image11.png'
+import heart from './assets/bx_bxs-heart.png'
+import music from './assets/Music Player Options.png'
+import rightOpt from './assets/Right options.png'
 
 function App() {
 
@@ -91,59 +93,59 @@ function App() {
 
     <h2 className="shows_heading">Shows you might like</h2>
 
-    <div class="shows">
-        <div class="show1">
-            <div><img src={image9} class="s-img"/></div>
-            <div class="txt1">Weekly Motivatio...</div>
-            <div class="txt2">author</div>
+    <div className="shows">
+        <div className="show1">
+            <div><img src={image9} className="s-img"/></div>
+            <div className="txt1">Weekly Motivatio...</div>
+            <div className="txt2">author</div>
         </div>
 
-        <div class="show1">
-            <div><img src={image8} class="s-img" /></div>
-            <div class="txt1">MEDITATION SELF</div>
-            <div class="txt2">author</div>
+        <div className="show1">
+            <div><img src={image8} className="s-img" /></div>
+            <div className="txt1">MEDITATION SELF</div>
+            <div className="txt2">author</div>
         </div>
 
-        <div class="show1">
-            <div><img src={image7} class="s-img" /></div>
-            <div class="txt1">Words beyond act...</div>
-            <div class="txt2">author</div>
+        <div className="show1">
+            <div><img src={image7} className="s-img" /></div>
+            <div className="txt1">Words beyond act...</div>
+            <div className="txt2">author</div>
         </div>
 
-        <div class="show1">
-            <div><img src={image6} class="s-img" /></div>
-            <div class="txt1">The Alexa Show</div>
-            <div class="txt2">author</div>
+        <div className="show1">
+            <div><img src={image6} className="s-img" /></div>
+            <div className="txt1">The Alexa Show</div>
+            <div className="txt2">author</div>
         </div>
 
-        <div class="show1">
-            <div><img src={image5} class="s-img"/></div>
-            <div class="txt1">The Stories of Ma...</div>
-            <div class="txt2">author</div>
+        <div className="show1">
+            <div><img src={image5} className="s-img"/></div>
+            <div className="txt1">The Stories of Ma...</div>
+            <div className="txt2">author</div>
         </div>
 
-        <div class="show1">
-            <div><img src={image10} class="s-img" /></div>
-            <div class="txt1">Motivation Daily b...</div>
-            <div class="txt2">author</div>
+        <div className="show1">
+            <div><img src={image10} className="s-img" /></div>
+            <div className="txt1">Motivation Daily b...</div>
+            <div className="txt2">author</div>
         </div>
     </div>
 
-    <div class="bottom-bar">
-            <div class="img1"><img style="height: 55px; " src="./image11.png">
-                <div style="margin-left: 10px;">DreamingOn</div>
-                <div><img style="height: 20px; margin-left: 10px;" src="./bx_bxs-heart.png"></div>
+    <div className="bottom-bar">
+            <div className="img_1"><img src={image11} className='image11' />
+                <div className="dream_on">Dreaming On <br />NEFFEX</div>
+                <div><img src={heart} className="heart"/></div>
             </div>
             <div>
-                <img style="height: 60px; margin-top: 10px;" src="./Music Player Options.png">
+                <img src={music} className='music'/>
             </div>
             <div>
-                <img class="img2" style="height: 23px; margin-top: 30px;" src="./Right options.png">
+                <img src={rightOpt} className="img_2"/>
             </div>
     </div>
 
-    <div class="green">
-        <div style="margin-right: 75px; font-weight: bold;"><img src="./">Listening on ASUS-ROG-G531GT</div>
+    <div className="green">
+        <div className="listenOn"><img src={''}/>Listening on ASUS-ROG-G531GT</div>
     </div>
 
 
