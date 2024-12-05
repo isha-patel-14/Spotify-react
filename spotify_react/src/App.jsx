@@ -13,6 +13,13 @@ import image4 from './assets/image4.png'
 import image3 from './assets/image3.png'
 import image1 from './assets/image1.png'
 import image2 from './assets/image2.png'
+import image9 from './assets/image9.png'
+import image8 from './assets/image8.png'
+import image7 from './assets/image7.png'
+import image5 from './assets/image5.png'
+import image6 from './assets/image6.png'
+import image10 from './assets/image10.png'
+
 
 
 function App() {
@@ -81,6 +88,64 @@ function App() {
             <div className="text2">Dance/Electronic Mix</div>
         </div>
     </div>
+
+    <h2 className="shows_heading">Shows you might like</h2>
+
+    <div class="shows">
+        <div class="show1">
+            <div><img src={image9} class="s-img"/></div>
+            <div class="txt1">Weekly Motivatio...</div>
+            <div class="txt2">author</div>
+        </div>
+
+        <div class="show1">
+            <div><img src={image8} class="s-img" /></div>
+            <div class="txt1">MEDITATION SELF</div>
+            <div class="txt2">author</div>
+        </div>
+
+        <div class="show1">
+            <div><img src={image7} class="s-img" /></div>
+            <div class="txt1">Words beyond act...</div>
+            <div class="txt2">author</div>
+        </div>
+
+        <div class="show1">
+            <div><img src={image6} class="s-img" /></div>
+            <div class="txt1">The Alexa Show</div>
+            <div class="txt2">author</div>
+        </div>
+
+        <div class="show1">
+            <div><img src={image5} class="s-img"/></div>
+            <div class="txt1">The Stories of Ma...</div>
+            <div class="txt2">author</div>
+        </div>
+
+        <div class="show1">
+            <div><img src={image10} class="s-img" /></div>
+            <div class="txt1">Motivation Daily b...</div>
+            <div class="txt2">author</div>
+        </div>
+    </div>
+
+    <div class="bottom-bar">
+            <div class="img1"><img style="height: 55px; " src="./image11.png">
+                <div style="margin-left: 10px;">DreamingOn</div>
+                <div><img style="height: 20px; margin-left: 10px;" src="./bx_bxs-heart.png"></div>
+            </div>
+            <div>
+                <img style="height: 60px; margin-top: 10px;" src="./Music Player Options.png">
+            </div>
+            <div>
+                <img class="img2" style="height: 23px; margin-top: 30px;" src="./Right options.png">
+            </div>
+    </div>
+
+    <div class="green">
+        <div style="margin-right: 75px; font-weight: bold;"><img src="./">Listening on ASUS-ROG-G531GT</div>
+    </div>
+
 
     </>
   )
